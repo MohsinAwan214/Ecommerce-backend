@@ -3,7 +3,7 @@ import {proucts} from "./productData.js";
 import cors from 'cors'
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3003;
 
 app.use(cors())
 
