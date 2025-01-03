@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react'
-import { api_key } from '../productApi/index';
+import { api_key } from '../productApi';
+
 
 export default function useProduct(query) {
     
