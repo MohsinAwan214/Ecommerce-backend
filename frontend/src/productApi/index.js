@@ -1,1 +1,1 @@
-export const api_key = "http://localhost:3000/product"
+export const api_key = "https://ecommerce-backend-ten-tau.vercel.app/product"
