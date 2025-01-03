@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+        
+        
+        
+
+        
+    
+   
+
+@media only screen and (max-width: 897px){
+
+.var{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+
+.newarival{
+    grid-row: auto;
+}
+.delievery{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.voucher1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.voucher3{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voucher4{
+    font-size: 40px;
+}
+
+}
+
+.S_Underline:after {
+    position: absolute;
+    bottom: .5rem;
+    left: 2px;
+    height: .125rem;
+    width: 0;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .4s;
+    --tw-content: "";
+    content: var(--tw-content);
+}
+
+*{
+    /* font-family: Popoins; */
+    /* font-family: inter; */
+    --primary:#db4444;
+}
+.margin{
+    margin-right:auto;
+    margin-left:auto;
+    max-width: 1200px;
+    
+}
+.bdr{
+    border:1px solid black;
+}
+
+.price{
+    color: #DB4444;
+
+}
+
+.box{
+    border: 8px solid #2F2E30;
+   
+}
+
+.discount{
+    color: #FAFAFA;
+    background-color: #DB4444;
+    
+}
+
+.bgGreen{
+    color: #FAFAFA;
+    background-color: #00FF66;
+
+}
+
+.whiteSmoke{
+    background-color: whitesmoke;
+    
+}
+
+
+
+    .shadow1{
+       box-shadow: 0px 1px 2px 0px black;
+    }
