@@ -9,7 +9,6 @@ export default function Arrow(props) {
 
  <MdOutlineArrowBack className='rounded-full bg-[#F5F5F5] text-[30px] '/>
  <MdOutlineArrowForward className='rounded-full bg-[#F5F5F5] text-[30px] '/>
-
 </div>  
     
   )

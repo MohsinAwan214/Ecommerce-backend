@@ -1,1 +1,0 @@
-export const api_key = "https://ecommerce-backend-ten-tau.vercel.app/product"

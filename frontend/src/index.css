@@ -11,7 +11,73 @@
         
         
         
+@media only screen and (max-width: 320px){
 
+    .music{
+        height: 11rem;
+    }
+    .musicText{
+        font-size: 10px;
+    }
+    .musicText-1{
+        font-size: 14px;
+        width: 120px;
+    
+    }
+    
+        .music-1{
+           
+           margin-left: 10px;
+           margin-top:0px;
+         
+           
+           
+        }
+        .music-2{
+        width: 150px;
+            gap: 10px;
+        }
+
+    .days{
+        height: 25px;
+        width: 25px;
+        line-height: 5px;
+        
+    }
+    .hours{
+        height: 25px;
+        width: 25px;
+        line-height: 5px;
+    }
+    .minutes{
+        height: 25px;
+        width: 25px;
+        line-height: 1px;
+    }
+    .seconds{
+        height: 25px;
+        width: 25px;
+        line-height: 1px;
+    }
+   
+    .text{
+    
+        
+        font-size: 10px;
+    }
+    .text-1{
+
+     font-size: 4px;
+
+    }
+    .BayNow-btn{
+        height: 35px;
+        width: 100px;
+        font-size: 10px;
+    
+    }
+    
+}
         
     
    

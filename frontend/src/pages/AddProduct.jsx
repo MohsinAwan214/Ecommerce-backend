@@ -24,8 +24,7 @@ export default function AddProduct() {
       console.log("formValue ka obj", formValues);
 
       const response = await axios.post(
-        "http://localhost:3000/product/add",
-        
+        "https://dummyjson.com/products/add",
         {
           formValues,
         }

@@ -9,11 +9,10 @@ import Card from '../Component/Card'
 import DeliveryIcon from '../assets/images/icon-delivery.png'
 import IconReturn from '../assets/images/Icon-return.png'
 import useProduct from "../hooks/useProduct";
-import { api_key } from '../productApi';
 export default function ProductDatail() {
   const {products} = useProduct("limit=30&skip=100")
   const params = useParams()
-  const { data, error, isLoading } = useSWR(`${api_key}/products/${params.id}`, axios)
+  const { data, error, isLoading } = useSWR(`https://dummyjson.com/products/${params.id}`, axios)
 
    
     
